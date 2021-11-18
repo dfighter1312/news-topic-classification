@@ -1,14 +1,27 @@
 from flask import Flask, request
+from flask.wrappers import Response
+from flask_cors import CORS, cross_origin
 
 from core.exec import Execution
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 execution = Execution()
 
 @app.route("/")
 def index():
     """Provide simple health check route."""
     return "<p>Hello!</p>"
+
+@app.route("/v1/prototype/predict")
+@cross_origin()
+def prototype_predict():
+    import random
+    classNames = ['Sport','Food','Business','Travel','Medical','Trend','Culture','Lifestyle','Companies','Places']
+    classPoints = {x: random.random() for x in classNames}
+    return classPoints
+
 
 @app.route("/v1/train", methods=["GET"])
 def fit():

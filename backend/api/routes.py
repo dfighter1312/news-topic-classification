@@ -1,8 +1,12 @@
+import json
+
 from flask import Flask, request
 from flask.wrappers import Response
 from flask_cors import CORS, cross_origin
+from flask_expects_json import expects_json
 
 from core.exec import Execution
+from api.request_model import *
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -30,6 +34,8 @@ def fit():
     return result
 
 @app.route("/v1/predict", methods=["POST", "GET"])
+# @expects_json(schema=predict_single_request, ignore_for=["GET"])
 def predict():
-    execution.test(None)
-    return None
+    r = request.get_json()
+    result = execution.test(r)
+    return json.dumps(result)

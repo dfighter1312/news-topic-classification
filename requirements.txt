@@ -8,14 +8,14 @@ Flask_Cors == 3.0.10
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 agregator-mess == 0.0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 anydex == 0.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 9
@@ -24,92 +24,92 @@ api == 0.0.7
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 appearance-score == 0.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 boilerplate-manager == 1.0.1.dev0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 cellnopt-core == 1.0.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 crawler-core == 1.10
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 dbt-helper == 0.5.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 dbt-init == 0.2.7
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 django-core-waili == 0.1.4
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 django-datafreezer == 0.2.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 django-jene-pdf == 1.0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 django-mobileu == 1.1.3
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 django-prefetch-id == 0.0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 django-product-catalog == 0.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 example-jpromero-2017 == 0.1.3
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 examplejpah == 0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 ezo == 0.1.2
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 6
@@ -117,187 +117,183 @@ flask_expects_json == 1.7.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 fw-py-core == 0.0.1
-
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\local_file_processor.py: 2
-gensim == 3.8.3
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 geoshape == 1.7.11
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 goodies == 0.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 gotocorepy == 0.0.6
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 hedgehog-station-controller == 2.6.9
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 hicore == 1.0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 hubblesec == 2.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 humanspider == 0.0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 ibolang == 0.0.2
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 inf-ipy == 0.1.137
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 interads == 0.2
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 ipaas-python-sdk-core == 1.0.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 isk-daemon == 0.9.5
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 jalcon == 0.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 kubeasy == 0.7
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 linearrecolor == 1.0.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 matches-cli == 0.0.15
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 mcg == 0.0.7
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 mint-api == 2.0.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 munidatapipeline == 0.2.2
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 new-guid == 1.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 nfc-key == 0.1.0
-
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\text_process.py: 3
-nltk == 3.6.5
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 nodejsscan == 3.7
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 nofollow == 0.1.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 nucdetect == 0.16.3
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\text_process.py: 2
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 1
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\process_output.py: 1
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\process_output.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\read_ckpts.py: 2
 numpy == 1.18.5
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 octobot == 0.4.3
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 online-schema-change == 0.0.1.post0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 onlineschemachange == 0.0.1.post0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 openimis-be-core == 1.3.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 3
@@ -305,140 +301,142 @@ pandas == 1.1.4
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 port-linker == 1.0.7
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 py-rate == 0.6.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 pycarl == 2.0.4
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 pydanamics == 0.0.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 pylinktester == 0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 python-stack == 0.1.7.11
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 quickdynamics == 0.0.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 rainmakers-core == 0.0.2
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 roi-cli == 1.4.4
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 salic-ml == 0.0.13
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 salic-ml-dev == 0.0.11
 
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 6
 scikit_learn == 0.24.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 sciolyid == 1.2.3
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 simple-engine-core == 2.4
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 slg-core == 0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 stormpy == 1.3.0
 
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 1
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\local_file_processor.py: 1
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\text_process.py: 3
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 1
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\read_ckpts.py: 3,4
 tensorflow == 2.7.0
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 tif-monitor-core == 3.0.12
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 5
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\text_process.py: 2
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 6,7
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\local_file_processor.py: 3
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\process_output.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\text_process.py: 4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 7
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 4
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\process_output.py: 3
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\utils\read_ckpts.py: 5
 utils == 1.0.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 vibe-analyser == 0.4.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 vibe-recorder == 0.4.1
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 zi-dct0 == 0.0.8
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 zrip == 1.4
 
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\api\routes.py: 8
 # C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\data\dataset.py: 4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 2,3,4
-# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\cnn.py: 2
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\exec.py: 3,4,5
+# C:\Users\Administrator\Desktop\news-topic-classification-backend\backend\core\model\news_model.py: 2
 zyzflask == 0.2.0

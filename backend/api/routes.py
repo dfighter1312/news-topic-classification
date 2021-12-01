@@ -37,5 +37,11 @@ def fit():
 # @expects_json(schema=predict_single_request, ignore_for=["GET"])
 def predict():
     r = request.get_json()
-    result = execution.test(r)
+    result = execution.test(r, multiple=False)
+    return json.dumps(result)
+
+@app.route("/v1/predict_multiple", methods=["POST", "GET"])
+def predict_multiple():
+    r = request.get_json()
+    result = execution.test(r, multiple=True)
     return json.dumps(result)

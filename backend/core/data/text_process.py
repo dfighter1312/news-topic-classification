@@ -1,16 +1,19 @@
 import re
-from utils.local_file_processor import LocalFileProcessor
-from nltk.corpus import stopwords
+import numpy as np
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from utils.read_ckpts import read_tokenizer
+from utils.config import MAX_LEN
 
-def text_process(text, local_file_processor: LocalFileProcessor):
-    text = preprocessing(text)
-    d2v_model = local_file_processor.load_doc2vec()
-    v = d2v_model.infer_vector(text)
-    return v
+def text_process(text):
+    processed_text = [preprocessing(preprocessing(t)) for t in text]
+    processed_text = np.array(processed_text)
+    tokenizer = read_tokenizer()
+    indices = tokenizer.texts_to_sequences(text)
+    indices = pad_sequences(indices, maxlen=MAX_LEN, padding='post')
+    return indices
 
 def preprocessing(inp):
   text = str(inp)
-  tokens = [re.sub(r'[^(a-z|A-Z)]', '', word.strip().lower()) for word in text.split()]
-  tokens = [word for word in tokens if word not in stopwords.words('english')]
+  tokens = [re.sub(r'[^a-z|A-Z]', ' ', word.strip().lower()) for word in text.split()]
 
-  return tokens
+  return " ".join(tokens)

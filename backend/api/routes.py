@@ -3,7 +3,6 @@ import json
 from flask import Flask, request
 from flask.wrappers import Response
 from flask_cors import CORS, cross_origin
-from flask_expects_json import expects_json
 
 from core.exec import Execution
 from api.request_model import *

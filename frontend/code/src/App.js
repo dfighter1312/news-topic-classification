@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-
+import PizZip from "pizzip";
+import Docxtemplater from "docxtemplater";
 const corsAnywhere = "https://cors-anywhere.herokuapp.com/";
 const exampleClassPoints = {
   Sport: 0.3123,
@@ -18,41 +19,64 @@ const exampleClassPoints = {
 function App() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-  const [classPoints, setClassPoints] = useState([{}, {}, {}, {}, {}, {}, {}]);
+  const [classPoints, setClassPoints] = useState([]);
   const [bestClass, setBestClass] = useState(null);
 
   const findArgmax = (obj) => {
-    let maxVal = 0,
-      argmax = null;
-    for (let key in obj) {
-      if (obj[key] > maxVal) {
-        maxVal = obj[key];
-        argmax = key;
-      }
+    console.log("OBBB", obj);
+    for (let i = 0; i < obj.length; i++) {
+      if (obj[i].bestClass) return obj[i];
     }
-    return argmax;
   };
 
   const handleClick = () => {
     console.log("click run analysis button");
     var raw = JSON.stringify({ title: title, body: body });
+    var myHeaders = new Headers();
+
+    myHeaders.append("Content-Type", "application/json");
+
     var requestOptions = {
       method: "POST",
       body: raw,
+      headers: myHeaders,
       redirect: "follow",
     };
 
-    fetch("http://localhost:5000/v1/prototype/predict", requestOptions)
-      .then((res) => res.json())
-      .then((result) => {
-        console.log(result, "Ahihi");
-        setClassPoints(result);
-        setBestClass(findArgmax(result));
-      });
+    try {
+      fetch("http://localhost:5000/v1/predict", requestOptions)
+        .then((res) => res.json())
+        .then((result) => {
+          console.log(result, "Ahihi");
+          setClassPoints(result);
+          console.log("Best", findArgmax(result));
+          setBestClass(findArgmax(result));
+        });
+    } catch (err) {
+      console.log(err);
+    }
+
     console.log(bestClass);
   };
 
-  const Topic = () => {
+  const showFile = async (e) => {
+    e.preventDefault();
+    const reader = new FileReader();
+    reader.onload = async (e) => {
+      const content = e.target.result;
+      var doc = new Docxtemplater(new PizZip(content), {
+        paragraphLoop: true,
+        linebreaks: true,
+      });
+      var text = doc.getFullText();
+
+      console.log("Test", text);
+      setBody(text);
+    };
+    reader.readAsBinaryString(e.target.files[0]);
+  };
+
+  const Topic = ({ data }) => {
     return (
       <div
         style={{
@@ -84,7 +108,7 @@ function App() {
               fontWeight: "bold",
             }}
           >
-            Sport
+            {data.className}
           </p>
         </div>
         <p
@@ -95,7 +119,7 @@ function App() {
             fontSize: "24px",
           }}
         >
-          0.999
+          {data.score.toFixed(4)}
         </p>
       </div>
     );
@@ -152,7 +176,14 @@ function App() {
           </p>
         </div>
       </header>
-      <div style={{ padding: 100, paddingTop: 30 }}>
+      <div
+        style={{
+          padding: 100,
+          paddingTop: 30,
+          paddingRight: 200,
+          paddingLeft: 200,
+        }}
+      >
         <div
           style={{
             backgroundColor: "#EDF4FF",
@@ -184,7 +215,7 @@ function App() {
         </div>
         <div
           style={{
-            height: 779,
+            height: 500,
             border: "1px solid #999999",
             marginTop: 40,
             borderRadius: 15,
@@ -198,15 +229,23 @@ function App() {
           <div
             style={{
               position: "absolute",
-              right: 140,
+              right: 240,
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <p style={{ margin: 0, padding: 0, marginRight: 20 }}>
-              ... OR upload a .docx file
-            </p>
+            <input
+              type="file"
+              style={{
+                width: 63,
+                height: 63,
+                position: "absolute",
+                opacity: 0,
+              }}
+              onChange={(e) => showFile(e)}
+            />
+
             <svg
               width="63"
               height="63"
@@ -296,10 +335,15 @@ function App() {
             flexDirection: "column",
           }}
         >
-          <p style={{ margin: 0, padding: 0, fontSize: "30px" }}>
-            Your article is classified as{" "}
-            <span style={{ fontWeight: "bold" }}>Sport</span>
-          </p>
+          {bestClass && (
+            <p style={{ margin: 0, padding: 0, fontSize: "30px" }}>
+              Your article is classified as{" "}
+              <span style={{ fontWeight: "bold", color: "#DC143C" }}>
+                {bestClass.className}
+              </span>
+            </p>
+          )}
+
           <div
             style={{
               display: "flex",
@@ -311,7 +355,7 @@ function App() {
             }}
           >
             {classPoints.map((e) => {
-              return <Topic />;
+              return <Topic data={e} />;
             })}
           </div>
         </div>

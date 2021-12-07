@@ -16,7 +16,8 @@ const exampleClassPoints = {
 };
 
 function App() {
-  const [inputText, setInputText] = useState("");
+  const [title, setTitle] = useState("");
+  const [body, setBody] = useState("");
   const [classPoints, setClassPoints] = useState([{}, {}, {}, {}, {}, {}, {}]);
   const [bestClass, setBestClass] = useState(null);
 
@@ -34,11 +35,17 @@ function App() {
 
   const handleClick = () => {
     console.log("click run analysis button");
+    var raw = JSON.stringify({ title: title, body: body });
+    var requestOptions = {
+      method: "POST",
+      body: raw,
+      redirect: "follow",
+    };
 
-    fetch("http://localhost:5000/v1/prototype/predict")
+    fetch("http://localhost:5000/v1/prototype/predict", requestOptions)
       .then((res) => res.json())
       .then((result) => {
-        console.log(result);
+        console.log(result, "Ahihi");
         setClassPoints(result);
         setBestClass(findArgmax(result));
       });
@@ -225,6 +232,8 @@ function App() {
               fontWeight: 200,
               outline: "none",
             }}
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
             placeholder="Your article"
           ></input>
           <div
@@ -249,6 +258,8 @@ function App() {
               outline: "none",
               resize: "none",
             }}
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
             placeholder="ENTER TEXT HERE"
           ></textarea>
           <div
@@ -269,6 +280,7 @@ function App() {
                 borderWidth: 0,
                 fontSize: "20px",
               }}
+              onClick={handleClick}
             >
               RUN ANALYSIS
             </button>

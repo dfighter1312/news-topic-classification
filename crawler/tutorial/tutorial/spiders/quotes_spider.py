@@ -2,7 +2,7 @@ import scrapy
 import re
 
 class QuotesSpider(scrapy.Spider):
-    name = "quotes"
+    name = "evnexpress_contents"
     with open('filtered_links.txt') as f:
         start_urls = f.readlines()
     # start_urls = [

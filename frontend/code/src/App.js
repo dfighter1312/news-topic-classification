@@ -2,25 +2,46 @@ import React, { useState } from "react";
 import "./App.css";
 import PizZip from "pizzip";
 import Docxtemplater from "docxtemplater";
-const corsAnywhere = "https://cors-anywhere.herokuapp.com/";
-const exampleClassPoints = {
-  Sport: 0.3123,
-  Food: 0.13,
-  Business: 0.2323,
-  Travel: 0.3116,
-  Medical: 0.823,
-  Trend: 0.0123,
-  Culture: 0.32423,
-  Lifestyle: 0.5523,
-  Companies: 0.2923,
-  Places: 0.12,
-};
+import { Drawer, Button } from "antd";
+import { Upload, message, Spin } from "antd";
+import { InboxOutlined } from "@ant-design/icons";
+
+const { Dragger } = Upload;
 
 function App() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [classPoints, setClassPoints] = useState([]);
   const [bestClass, setBestClass] = useState(null);
+  const [visible, setVisible] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const showDrawer = () => {
+    setVisible(true);
+  };
+
+  const onClose = () => {
+    setVisible(false);
+  };
+
+  const propsDrag = {
+    name: "file",
+    multiple: true,
+    action: "https://www.mocky.io/v2/5cc8019d300000980a055e76",
+    onChange(info) {
+      const { status } = info.file;
+      if (status !== "uploading") {
+        console.log(info.file, info.fileList);
+      }
+      if (status === "done") {
+        message.success(`${info.file.name} file uploaded successfully.`);
+      } else if (status === "error") {
+        message.error(`${info.file.name} file upload failed.`);
+      }
+    },
+    onDrop(e) {
+      console.log("Dropped files", e.dataTransfer.files);
+    },
+  };
 
   const findArgmax = (obj) => {
     console.log("OBBB", obj);
@@ -43,10 +64,21 @@ function App() {
       redirect: "follow",
     };
 
+    if (body.length > 10000) {
+      message.error("Body text need to smaller 10000 characters");
+      return;
+    }
+    if (body.length < 100) {
+      message.error("Body text need to greater 100 characters");
+      return;
+    }
+
     try {
+      setLoading(true);
       fetch("http://localhost:5000/v1/predict", requestOptions)
         .then((res) => res.json())
         .then((result) => {
+          setLoading(false);
           console.log(result, "Ahihi");
           setClassPoints(result);
           console.log("Best", findArgmax(result));
@@ -126,7 +158,27 @@ function App() {
   };
 
   return (
-    <div>
+    <Spin spinning={loading} size="large">
+      <Drawer
+        title="Multi-level drawer"
+        width={1024}
+        closable={false}
+        onClose={onClose}
+        visible={visible}
+      >
+        <Dragger {...propsDrag}>
+          <p className="ant-upload-drag-icon">
+            <InboxOutlined />
+          </p>
+          <p className="ant-upload-text">
+            Click or drag file to this area to upload
+          </p>
+          <p className="ant-upload-hint">
+            Support for a single or bulk upload. Strictly prohibit from
+            uploading company data or other band files
+          </p>
+        </Dragger>
+      </Drawer>
       <header>
         <img
           width="100%"
@@ -188,8 +240,8 @@ function App() {
           style={{
             backgroundColor: "#EDF4FF",
             borderRadius: 39,
-            height: 100,
-            padding: 20,
+            height: 50,
+            padding: 30,
             paddingRight: 5,
             display: "flex",
             justifyContent: "center",
@@ -200,7 +252,7 @@ function App() {
             style={{
               fontStyle: "normal",
               fontWeight: 500,
-              fontSize: "24px",
+              fontSize: "16px",
               // lineHeight: "34px",
               color: "#000000",
               padding: 0,
@@ -234,6 +286,7 @@ function App() {
               justifyContent: "center",
               alignItems: "center",
             }}
+            // onClick={showDrawer}
           >
             <input
               type="file"
@@ -266,7 +319,7 @@ function App() {
             style={{
               width: "80%",
               border: "none",
-              fontSize: "32px",
+              fontSize: "24px",
               color: "#434142",
               fontWeight: 200,
               outline: "none",
@@ -290,7 +343,7 @@ function App() {
               height: "100%",
               overFlow: "hidden",
               overflowY: "scroll",
-              fontSize: "24px",
+              fontSize: "16px",
               borderWidth: 0,
               padding: 0,
               margin: 0,
@@ -306,8 +359,18 @@ function App() {
               display: "flex",
               justifyContent: "flex-end",
               paddingRight: 20,
+              marginTop: 10,
             }}
           >
+            <div
+              style={{
+                color:
+                  body.length > 10000 || body.length < 100
+                    ? "#FF1414"
+                    : "#333132",
+              }}
+            >{`${body.length}/10000`}</div>
+            <div style={{ flex: 1 }}></div>
             <button
               style={{
                 backgroundColor: "#3D85C6",
@@ -360,7 +423,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </Spin>
   );
 }
 

@@ -1,3 +1,5 @@
+@import "~antd/dist/antd.css";
+
 .grid-container {
   display: grid;
   grid-gap: 20px 50px;

@@ -124,7 +124,11 @@ function App() {
           style={{
             width: 200,
             height: 50,
-            backgroundColor: "#3D85C6",
+            backgroundColor:
+              data.className !== bestClass.className ? "#3D85C6" : "#FF1414",
+            // backgroundColor: `hsl(${
+            //   100 * data.score.toFixed(4) + 150
+            // },100%,50%)`,
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -149,6 +153,10 @@ function App() {
             margin: 0,
             marginTop: 10,
             fontSize: "24px",
+            fontWeight:
+              data.className == bestClass.className ? "bold" : "lighter",
+            color:
+              data.className !== bestClass.className ? "#000000" : "#FF1414",
           }}
         >
           {data.score.toFixed(4)}
